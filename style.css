@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(241, 14, 14);
+}
+
+.container {
+  display: inline-block;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #6c7072;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a70505;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#change-color-btn:hover {
+  background-color: #111111;
+}
